@@ -204,6 +204,35 @@ label {
 
 /* ===== LAYOUT STYLES ====== */
 
+h1 {
+  font: bold 36px Calibri, Arial, Sans-serif, Roboto;
+  color: black;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  font-size: 22px;
+  text-align: center;
+}
+
+ol {
+  background-color: #808080;
+  margin-top: 1em;
+  padding: 1.5em;
+  border-radius: 0.5em;
+}
+
+input {
+  resize: verticle;
+  display: inline-block;
+  padding: .2em;
+  border-radius: .3em;
+}
+
+
+
 /* ===== MODULAR STYLES ===== */
 /* ===== MEDIA  SCALING ===== */
 
@@ -215,9 +244,14 @@ label {
 @media screen and (min-width: 480px){
 }
 
-/* MEDIA > Large Tablets, Netbooks/Laptops */
-@media screen and (min-width: 760px){
+/* MEDIA > Large Tablets */
+@media screen and (min-width: 720px){
+}
+
+/* MEDIA > Larger Laptops, Desktops */
+@media screen and (min-width: 1024px){
 }
 
 /* ===== STATE STYLES ======= */
+
 

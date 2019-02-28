@@ -205,6 +205,19 @@ label {
 /* ===== LAYOUT STYLES ====== */
 
 /* ===== MODULAR STYLES ===== */
+/* ===== MEDIA  SCALING ===== */
+
+/* MEDIA > Basic Smartphones */
+@media screen and (max-width: 360px){
+}
+
+/* MEDIA > Smartphones, Small Tablets */
+@media screen and (min-width: 480px){
+}
+
+/* MEDIA > Large Tablets, Netbooks/Laptops */
+@media screen and (min-width: 760px){
+}
 
 /* ===== STATE STYLES ======= */
 
